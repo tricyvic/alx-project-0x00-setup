@@ -8,10 +8,7 @@ const landing:React.FC = () => {
         <h1 className=" text-xl font-extralight">Landing Page</h1>
         <Card />
         <Button
-          sizes="text-sm"
-          shape="rounded-full"
-          color="bg-red-500"
-          text="Click Me Now"
+          styles="bg-red-500 text-white px-4 py-2 rounded-sm rounded-lg"
         />
     </div>
   )
